@@ -1,0 +1,68 @@
+/*************************************************************************************/
+/*                       Initialisation                                              */
+/*************************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic,300);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html, body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 100%;
+}
+
+@navColor : white;
+@main : rgb(18, 176, 98);
+@trash : rgb(184, 36, 30);
+@hover : rgba(50, 123, 184, 0.74);
+
+/*************************************************************************************/
+/*                       Nav                                                         */
+/*************************************************************************************/
+
+.navbar-default {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: @main;
+  color: @navColor;
+  padding: 1em 0;
+}
+.navbar-default h1 {
+  margin: 0;
+}
+/*************************************************************************************/
+/*                       iconPart                                                    */
+/*************************************************************************************/
+.button-custom span {
+  border-radius: 200%;
+}
+#btnUpdate:hover {
+  background-color: @hover;
+}
+#iconPart {
+  margin-top: 0.1em;
+  font-size: 4em;
+}
+i {
+  margin-top: 0.2em;
+}
+#plus {
+  color: @main;
+}
+#trash {
+  color: @trash;
+}
+h2 {
+  margin-top: 0;
+}
+
+/*************************************************************************************/
+/*                       Modal                                                       */
+/*************************************************************************************/
+
+.btn-primary {
+  position: relative;
+  left: 50% !important;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,15 @@
+<template name="insertForm">
+  {{#autoForm collection="cars" id="carsAutoFormInsert" type="insert"}}
+
+    <fieldset>
+      {{> afQuickField name='pref'}}
+      {{> afQuickField name='marque'}}
+      {{> afQuickField name='modèle'}}
+      {{> afQuickField name='type'}}
+      {{> afQuickField name='couleur'}}
+    </fieldset>
+      <button type="submit" class="btn btn-primary"> Ajouter la Voiture </button>
+
+  {{/autoForm}}
+
+</template>

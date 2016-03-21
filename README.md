@@ -1,6 +1,6 @@
 # Meteor_Fun
 
-Web app with Meteor , datatable + drag &amp; drop 
+Real time Web app with Meteor , datatable + drag &amp; drop 
 
 To Do : Fix drop issue
 
